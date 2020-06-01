@@ -72,7 +72,6 @@ class Recommender():
         for iteration in range(self.iters):
 
             # update our sse
-            old_sse = sse_accum
             sse_accum = 0
 
             # For each user-movie pair
